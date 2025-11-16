@@ -1,0 +1,42 @@
+{
+  "title": "Intermediate/Hard Kubernetes Practical Exam (5 Steps)",
+  "description": "A 45-minute practical Kubernetes exam covering namespaces, RBAC, scheduling, storage, deployments, and network policies.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Namespace and RBAC Setup",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Scheduling with Taints and Tolerations",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Persistent Volume, PVC and Pod Mount",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Deployment Rollout and Update",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Network Policy and Access Control",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
